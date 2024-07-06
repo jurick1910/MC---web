@@ -55,7 +55,7 @@ app.post("/sign_up", (req,res) => {
         }
         console.log("Record Inserted Succesfully")
     })
-    return res.redirect('Naslovna stranica.html')
+    return res.redirect('index.html')
 })
 
 app.post("/sign_in",async (req,res) => {
